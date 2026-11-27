@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>José Paz Rangel Rojas — Data &amp; Machine Learning Engineering</title>
-<meta name="description" content="Eight data systems: incremental ELT into Snowflake, anti-money-laundering reporting and detection, geospatial dashboards, and land valuation with calibrated intervals. Four with live demos.">
+<meta name="description" content="Seven data systems: incremental ELT into Snowflake, anti-money-laundering detection, geospatial dashboards, and land valuation with calibrated intervals. Three with live demos.">
 
 <!-- Tarjeta de vista previa. Sin esto, LinkedIn, WhatsApp y Slack muestran
      una ilustración genérica al compartir el link — y este es el único
@@ -13,19 +13,19 @@
      El nombre del archivo lleva versión a propósito: LinkedIn cachea la
      imagen por su URL, así que reemplazar `og.png` con el mismo nombre no
      sirve de nada — sigue sirviendo la copia vieja aunque vuelva a leer el
-     HTML. Al cambiar el diseño, subir la nueva como `og-v6.png`. -->
+     HTML. Al cambiar el diseño, subir la nueva como `og-v7.png`. -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://paz-rangelr.github.io/">
 <meta property="og:title" content="José Paz Rangel Rojas — Data &amp; Machine Learning Engineering">
-<meta property="og:description" content="ELT, AML detection, geospatial analytics, machine learning. Four with live demos you can open right now.">
-<meta property="og:image" content="https://paz-rangelr.github.io/og-v5.png">
+<meta property="og:description" content="ELT, AML detection, geospatial analytics, machine learning. Three with live demos you can open right now.">
+<meta property="og:image" content="https://paz-rangelr.github.io/og-v6.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="José Paz Rangel Rojas — Data &amp; Machine Learning Engineering">
-<meta name="twitter:description" content="ELT, AML detection, geospatial analytics, machine learning. Four with live demos you can open right now.">
-<meta name="twitter:image" content="https://paz-rangelr.github.io/og-v5.png">
+<meta name="twitter:description" content="ELT, AML detection, geospatial analytics, machine learning. Three with live demos you can open right now.">
+<meta name="twitter:image" content="https://paz-rangelr.github.io/og-v6.png">
 
 <style>
 :root{
@@ -372,7 +372,7 @@ footer a:hover{color:var(--accent)}
   </header>
 
   <div class="stats">
-    <div class="stat"><b>8</b><span>Production systems</span></div>
+    <div class="stat"><b>7</b><span>Production systems</span></div>
     <div class="stat"><b>R · Python</b><span>Both, in production</span></div>
     <div class="stat"><b>Snowflake</b><span>Warehouse &amp; Cortex</span></div>
     <div class="stat"><b>LFPIORPI</b><span>AML compliance domain</span></div>
@@ -508,29 +508,6 @@ footer a:hover{color:var(--accent)}
     <!-- 6 -->
     <article class="card">
       <div class="card-top">
-        <h3>AML Regulatory Connector</h3>
-        <span class="badge live">Live demo</span>
-      </div>
-      <p>
-        End-to-end reporting for Mexico's LFPIORPI: ERP to Snowflake to a Streamlit app
-        behind AWS Cognito. The hard part was not the API — it was <em>modelling partial
-        payments, VAT and multi-invoice collections</em> so the reported amount is the
-        one that actually changed hands, instead of over-reporting and having to amend.
-      </p>
-      <div class="chips">
-        <span class="chip">Python</span><span class="chip">Streamlit</span>
-        <span class="chip">Snowflake</span><span class="chip">AWS Cognito</span>
-        <span class="chip">Docker</span><span class="chip">RegTech</span>
-      </div>
-      <div class="actions">
-        <a class="btn primary" href="https://aml-regulatory-connector.streamlit.app">Open demo</a>
-        <a class="btn" href="https://github.com/Paz-RangelR/aml-regulatory-connector">Code</a>
-      </div>
-    </article>
-
-    <!-- 7 -->
-    <article class="card">
-      <div class="card-top">
         <h3>Bank Reconciliation — Host-to-Host</h3>
         <span class="badge">Runnable locally</span>
       </div>
@@ -550,7 +527,7 @@ footer a:hover{color:var(--accent)}
       </div>
     </article>
 
-    <!-- 8 -->
+    <!-- 7 -->
     <article class="card">
       <div class="card-top">
         <h3>Bank Statement Consolidator</h3>
@@ -576,7 +553,7 @@ footer a:hover{color:var(--accent)}
   <div class="note">
     <h2>About these repositories</h2>
     <p>
-      Six of the eight are <strong>real production systems, rewritten for public
+      Five of the seven are <strong>real production systems, rewritten for public
       release</strong>. Companies, tenants, properties, tax IDs, bank accounts, people
       and vendor endpoints are invented; credentials live in environment variables and
       are not included; sample data is generated and matches the shape of the real data,
