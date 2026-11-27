@@ -1,4 +1,4 @@
-# Landing de portafolio — chino-bot1701.github.io
+# Landing de portafolio — Paz-RangelR.github.io
 
 Página estática con los seis proyectos. Un solo archivo, sin dependencias.
 
